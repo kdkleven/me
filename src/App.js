@@ -1,4 +1,4 @@
-import { Header, Footer, About, Portfolio, Contact } from './components'
+import { Header, Footer, Home, About, Portfolio, Contact } from './components'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 
@@ -8,8 +8,9 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/" exact component={() => <About />} />
-          
+          <Route path="/" exact component={() => <Home />} />
+          <Route path="/home" exact component={() => <Home />} />
+          <Route path="/about" exact component={() => <About />} />
           <Route path="/portfolio" exact component={() => <Portfolio />} />
           <Route path="/contact" exact component={() => <Contact />} />
         </Switch>
