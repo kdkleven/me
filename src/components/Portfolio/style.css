@@ -1,0 +1,47 @@
+
+.card {
+    border: 1px solid #dc3545 !important;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    grid-gap: 4px;
+    width: 18rem;
+    height: auto;
+}
+
+.body {
+    /* align-self: end; */
+    text-align: center;
+    margin-bottom: 100px !important;
+}
+
+.dropdown-text {
+    color: black !important;
+}
+
+.card-deck {
+   display: flex;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1396px) {
+ 
+.body {
+    margin-top: 50px;
+    align-self: end;
+    text-align: center;
+}
+
+.card-deck {
+   display: flex;
+   grid-gap: 24px;
+}   
+
+.card {
+    border: 1px solid #dc3545 !important;
+    width: 286px !important;
+    min-width: 286px !important;
+    max-width: 286px !important;
+    
+}
+
+}

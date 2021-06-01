@@ -1,0 +1,13 @@
+.navbar {
+    margin-bottom: 100px !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    overflow: auto;
+}
+
+.basic-navbar-nav {
+    align-items: right !important;
+    align-content: right !important;
+}
+
