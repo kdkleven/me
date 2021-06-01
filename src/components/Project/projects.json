@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Daily Recreational",
         "desc": "An applicaiton to inspire you to get out of the house and rekindle your love for outdoor activities.",
-        "img": "img/DailyRecreational.png",
+        "img": "./img/DailyRecreational.png",
         "app": "https://kdkleven.github.io/dailyRecreational/",
         "repo": "https://github.com/kdkleven/dailyRecreational"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Cup of Sugar",
         "desc": "A platform for good neighbors to be good neighbors.",
-        "img": "img/cupofsugar.png",
+        "img": "./img/cupofsugar.png",
         "app": "https://cup-of-sugar-app.herokuapp.com/",
         "repo": "https://github.com/kdkleven/Cup-of-Sugar"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Tech Blog",
         "desc": "A blog for technically-minded individuals to share experience.",
-        "img": "img/techblog.PNG",
+        "img": "./img/techblog.PNG",
         "app": "https://kk-tech-blog.herokuapp.com/",
         "repo": "https://github.com/kdkleven/techBlog"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "iWorkout",
         "desc": "Workout tracker to help you track your daily workout routine.",
-        "img": "img/iworkout.jpg",
+        "img": "./img/iworkout.jpg",
         "app": "https://kk-workout.herokuapp.com/",
         "repo": "https://github.com/kdkleven/iWorkout"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Snuze",
         "desc": "A tranquil React app, and was designed to meet the needs of users who want some extra help to fall asleep comfortably.",
-        "img": "img/snuze.png",
+        "img": "./img/snuze.png",
         "app": "https://snueze.herokuapp.com/",
         "repo": "https://github.com/kdkleven/Snueze"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "empDirStat",
         "desc": "An employee directory, with filter and sort functionality, built using React.",
-        "img": "img/empdirstat.JPG",
+        "img": "./img/empdirstat.JPG",
         "app": "https://kdkleven.github.io/empDirStat/",
         "repo": "https://github.com/kdkleven/empDirStat"
     }
