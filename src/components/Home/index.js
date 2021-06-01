@@ -1,13 +1,13 @@
 import React from "react";
 import { Image } from 'react-bootstrap'
 
-function About() {
+function Home() {
   return (
     <div className="body">
         <h1 className="font-weight-light">Welcome</h1>        
-        <Image id="headshot" src="/img/favicon.ico" alt="headshot" roundedCircle />
+        <Image id="welcome" src="./img/enso.jpg" alt="welcome" roundedCircle />
         </div>
   );
 }
 
-export default About;
+export default Home;
