@@ -1,11 +1,9 @@
 
 .card {
     border: 1px solid #dc3545 !important;
-    display: flex;
-    grid-template-rows: 1fr auto;
-    grid-gap: 4px;
     width: 18rem;
     height: auto;
+    
 }
 
 .body {
@@ -20,14 +18,14 @@
 
 .card-deck {
    display: flex;
-   grid-template-columns: repeat(4, 1fr);
+   
+
 }
 
 @media (max-width: 1396px) {
  
 .body {
     margin-top: 50px;
-    align-self: end;
     text-align: center;
 }
 

@@ -5,7 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 function Header(props) {
     return (
         <div id="header">
-        <Navbar className="navbar-expanded bg-danger text-white">
+        <Navbar className="navbar bg-danger text-white">
             <Navbar.Brand className="navbar-brand">
                 <Link className="nav-item" to="/">
                     Kyle Kleven

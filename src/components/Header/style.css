@@ -3,11 +3,7 @@
     width: 100% !important;
     position: absolute !important;
     top: 0 !important;
-    overflow: auto;
+    /* overflow: auto; */
+    padding: 10px !important;
+    
 }
-
-.basic-navbar-nav {
-    align-items: right !important;
-    align-content: right !important;
-}
-
