@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,17 +46,10 @@
       "last 1 safari version"
     ]
   },
-  "description": "Kyle Kleven's portfolio",
+  "description": "Kyle Kleven Portfolio",
   "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kdkleven/me.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kdkleven/me/issues"
-  },
-  "homepage": "https://kdkleven.github.io/"
+  "homepage": "https://kdkleven.github.io/me"
 }
