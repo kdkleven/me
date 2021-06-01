@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap'
+import "./style.css"
 
 function Header(props) {
     return (
-        <div id="header">
-        <Navbar className="navbar bg-danger text-white">
+        <Navbar className="header bg-danger text-white">
             <Navbar.Brand className="navbar-brand">
                 <Link className="nav-item" to="/">
                     Kyle Kleven
                     </Link>
             </Navbar.Brand>
             <Navbar.Toggle arai-controls="basic-navbar-nav" />
-            <Nav className="nav ml-auto">
+            <Nav>
                 <Navbar.Collapse>
                     <ul className="navbar-nav">
                         <li
@@ -45,7 +45,6 @@ function Header(props) {
                 </Navbar.Collapse>
             </Nav>
         </Navbar>
-        </div>
     )
 }
 

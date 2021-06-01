@@ -1,9 +1,8 @@
-.navbar {
-    margin-bottom: 100px !important;
+.header {
     width: 100% !important;
-    position: absolute !important;
+    position: relative;
     top: 0 !important;
     /* overflow: auto; */
-    padding: 10px !important;
-    
+    padding-left: .5rem !important;
+ 
 }

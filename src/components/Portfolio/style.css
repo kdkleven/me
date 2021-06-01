@@ -3,6 +3,7 @@
     border: 1px solid #dc3545 !important;
     width: 18rem;
     height: auto;
+    flex: 0 0 30%;
     
 }
 
@@ -17,9 +18,9 @@
 }
 
 .card-deck {
-   display: flex;
-   
-
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
 }
 
 @media (max-width: 1396px) {
@@ -31,6 +32,7 @@
 
 .card-deck {
    display: flex;
+   flex-wrap: wrap;
    grid-gap: 24px;
 }   
 

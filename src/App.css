@@ -1,7 +1,7 @@
 
 body {
   background-color: #212529 !important;
-  
+
 }
 
 
@@ -15,10 +15,6 @@ body {
 h1 {
   padding: 15px;
   color: white;
-}
-
-.App-link {
-  color: #852727;
 }
 
 a {
