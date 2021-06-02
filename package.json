@@ -2,6 +2,10 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "Kyle Kleven Portfolio",
+  "author": "kyle kleven",
+  "license": "ISC",
+  "homepage": "https://kdkleven.github.io/me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -45,11 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "Kyle Kleven Portfolio",
-  "main": "index.html",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://kdkleven.github.io/"
+  }
 }
