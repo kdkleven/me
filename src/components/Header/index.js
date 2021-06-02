@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <Navbar className="header bg-danger text-white">
             <Navbar.Brand className="navbar-brand">
-                <Link className="nav-item" to="/">
+                <Link className="nav-item" to="/me">
                     Kyle Kleven
                     </Link>
             </Navbar.Brand>
