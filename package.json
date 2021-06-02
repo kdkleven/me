@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,5 +51,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://kdkleven.github.io/me"
+  "homepage": "https://kdkleven.github.io/"
 }
