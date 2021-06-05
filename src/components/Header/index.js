@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <Navbar className="header bg-danger text-white">
             <Navbar.Brand className="navbar-brand">
-                <Link className="nav-item" to="/me">
+                <Link className="nav-item" to="/home">
                     Kyle Kleven
                     </Link>
             </Navbar.Brand>
@@ -16,7 +16,7 @@ function Header(props) {
                 <Navbar.Collapse>
                     <ul className="navbar-nav">
                         <li
-                            className={`nav-item  ${props.location.pathname === "/" ? "active" : ""
+                            className={`nav-item  ${props.location.pathname === "/about" ? "active" : ""
                                 }`}
                         >
                             <Link className="nav-link" to="/about">

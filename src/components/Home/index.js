@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from 'react-bootstrap';
+import Enso from '../../assets/images/enso.jpg'
 
 function Home() {
   return (
