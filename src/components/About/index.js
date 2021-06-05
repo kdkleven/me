@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="body">
         <h1 className="font-weight-light">About</h1>        
-        <Image id="headshot" src='img/headshot.jpg' alt="headshot" roundedCircle />    
+        <Image id="headshot" src="./assets/images/headshot.jpg" alt="headshot" roundedCircle />    
         <p id="about-body">
             I am a highly motivated engineer with over 15 years of experience testing of complex software applications across multiple industries. My project work ranges from highly configurable web-based platforms to massively popular video games, including multiple titles in the Call of Duty franchise.
             <br></br><br></br>

@@ -32,7 +32,7 @@ Run the application
 Use the header to navigate the site.
 
 ## Images
-<img src="./public/assets/img/portfolio.JPG" width="400" alt="Portfolio" />
+<img src="./public/assets/images/portfolio.JPG" width="400" alt="Portfolio" />
 
 ## License
   
