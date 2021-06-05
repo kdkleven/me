@@ -29,6 +29,8 @@ Run the application
   
 ## Usage Instructions
 
+Navigate to https://kdkleven.github.io/me/
+
 Use the header to navigate the site.
 
 ## Images
