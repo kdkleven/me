@@ -6,15 +6,23 @@ import "./style.css"
 function Header(props) {
     return (
         <Navbar className="header bg-danger text-white">
-            <Navbar.Brand className="navbar-brand">
+            {/* <Navbar.Brand className="navbar-brand">
                 <Link className="nav-item" to="/home">
-                    Kyle Kleven
-                    </Link>
-            </Navbar.Brand>
+                    Home
+                </Link>
+            </Navbar.Brand> */}
             <Navbar.Toggle arai-controls="basic-navbar-nav" />
-            <Nav>
+            <Nav className="m-auto">
                 <Navbar.Collapse>
                     <ul className="navbar-nav">
+                    <li
+                            className={`nav-item  ${props.location.pathname === "/" ? "active" : ""
+                                }`}
+                        >
+                            <Link className="nav-link" to="/">
+                                Home
+                            </Link>
+                        </li>
                         <li
                             className={`nav-item  ${props.location.pathname === "/about" ? "active" : ""
                                 }`}
@@ -29,7 +37,7 @@ function Header(props) {
                         >
                             <Link className="nav-link" to="/portfolio">
                                 Portfolio
-                                </Link>
+                            </Link>
                         </li>
                         <li
                             className={`nav-item  ${props.location.pathname === "/contact" ? "active" : ""
@@ -37,7 +45,7 @@ function Header(props) {
                         >
                             <Link className="nav-link" to="/contact">
                                 Contact
-                                </Link>
+                            </Link>
                         </li>
                     </ul>
                 </Navbar.Collapse>

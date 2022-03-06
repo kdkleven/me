@@ -5,7 +5,7 @@
   "description": "Kyle Kleven Portfolio",
   "author": "kyle kleven",
   "license": "ISC",
-  "homepage": "https://kdkleven.github.io/me",
+  "homepage": "https://kdkleven.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
