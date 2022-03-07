@@ -2,7 +2,22 @@
     width: 100% !important;
     position: relative;
     top: 0 !important;
-    /* overflow: auto; */
-    padding-left: .5rem !important;
- 
+    /* overflow: auto; */    
+}
+
+a {
+    padding: 15px;
+    color: white;
+}
+
+a li:hover {
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.brand-name {
+    background-color: white;
+    color: #dc3545;
+    padding: 15px;
 }
