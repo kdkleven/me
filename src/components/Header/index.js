@@ -11,20 +11,20 @@ function Header(props) {
             <Nav className="m-auto">
                 <Navbar.Collapse>
                     <ul className="navbar-nav container-fluid ml-auto">
-                    <li
-                            className={`nav-item  ${props.location.pathname === "/" ? "active" : ""
-                                }`}
-                        >
-                            <Link className="nav-link" to="/">
-                                Home
-                            </Link>
-                        </li>
                         <li
                             className={`nav-item  ${props.location.pathname === "/about" ? "active" : ""
                                 }`}
                         >
-                            <Link className="nav-link" to="/about">
+                            <Link className="nav-link head-nav" to="/about">
                                 About
+                            </Link>
+                        </li>
+                        <li
+                            className={`nav-item  ${props.location.pathname === "/portfolio" ? "active" : ""
+                                }`}
+                        >
+                            <Link className="nav-link head-nav" to="/portfolio">
+                                Portfolio
                             </Link>
                         </li>
                         </ul>
@@ -35,18 +35,18 @@ function Header(props) {
             </Navbar.Brand>
                         <ul className="navbar-nav container-fluid mr-auto">
                         <li
-                            className={`nav-item  ${props.location.pathname === "/portfolio" ? "active" : ""
+                            className={`nav-item  ${props.location.pathname === "/" ? "active" : ""
                                 }`}
                         >
-                            <Link className="nav-link" to="/portfolio">
-                                Portfolio
+                            <Link className="nav-link head-nav" to="/">
+                                Inspiration
                             </Link>
                         </li>
                         <li
                             className={`nav-item  ${props.location.pathname === "/contact" ? "active" : ""
                                 }`}
                         >
-                            <Link className="nav-link" to="/contact">
+                            <Link className="nav-link head-nav" to="/contact">
                                 Contact
                             </Link>
                         </li>

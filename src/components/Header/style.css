@@ -8,16 +8,33 @@
 a {
     padding: 15px;
     color: white;
+    text-decoration: none;
 }
 
-a li:hover {
-    color: white;
+/* a li:hover {
+    color: white !important;
     padding: 15px;
     display: block;
-}
+} */
 
 .brand-name {
     background-color: white;
-    color: #dc3545;
+    color: #dc3545 !important;
     padding: 15px;
+    text-decoration: none;
 }
+
+.head-nav {
+    color: white !important;
+}
+
+.head-nav:hover {
+    background-color: white !important;
+    padding: 7px;
+    
+    color: #dc3545 !important;
+}
+
+/* a {
+    color: white !important; 
+} */
