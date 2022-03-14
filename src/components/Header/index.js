@@ -30,7 +30,7 @@ function Header(props) {
                         </ul>
                         <Navbar.Brand className="navbar-brand">
                 <Link className="nav-item container-fluid m-auto brand-name" to="/">
-                    Kyle Kleven
+                   Kyle Kleven
                 </Link>
             </Navbar.Brand>
                         <ul className="navbar-nav container-fluid mr-auto">
@@ -38,7 +38,7 @@ function Header(props) {
                             className={`nav-item  ${props.location.pathname === "/" ? "active" : ""
                                 }`}
                         >
-                            <Link className="nav-link head-nav" to="/">
+                            <Link className="nav-link head-nav" to="/inspiration">
                                 Inspiration
                             </Link>
                         </li>

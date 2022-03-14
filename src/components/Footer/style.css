@@ -1,15 +1,21 @@
 .footer {
-    padding: 16px;
     margin-top: 50px !important;
     text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     overflow:auto;
+
 }
 
-/* a {
-    color: white;
-    text-decoration: none;
+a {
+    color: white !important;
+    text-decoration: none !important;
   }
-   */
+  
+  .foot-nav:hover {
+    background-color: white !important;
+    padding: 15px;
+    
+    color: #dc3545 !important;
+}

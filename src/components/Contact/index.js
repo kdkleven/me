@@ -25,8 +25,8 @@ class Contact extends React.Component {
     this.setState({ message: event.target.value })
   }
 
-  handleSubmit(e) {
-    e.preventDefault();
+  handleSubmit(event) {
+    event.preventDefault();
 
     axios({
       method: "POST",
@@ -64,7 +64,7 @@ class Contact extends React.Component {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" rows="5"></textarea>
           </div>
-          <button type="submit" className="btn btn-danger">Submit</button>
+          <button type="submit" className="btn btn-danger" onClick={this.handleSubmit}>Submit</button>
         </form>
         </div>
       
