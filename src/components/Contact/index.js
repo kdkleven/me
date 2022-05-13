@@ -54,7 +54,7 @@ class Contact extends React.Component {
         <form id="contact-form" className="mb-3" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="form-group">
             <label htmlFor="name">Name</label>
-            <input type="text" className="form-control" />
+            <input type="text" className="form-control" onChange={e => onNameChange} />
           </div>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>

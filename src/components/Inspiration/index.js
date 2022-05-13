@@ -9,7 +9,7 @@ function Inspiration() {
         <h1 className="font-weight-light">Inspiration</h1>        
         {/* <Image id="headshot" src={Headshot} alt="headshot" roundedCircle />     */}
         <p id="inspiration-body">
-        What inspires you?    
+        Do or do not, there is no try.    
         </p>
         
         </div>

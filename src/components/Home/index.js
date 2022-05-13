@@ -6,8 +6,9 @@ import './style.css';
 function Home() {
   return (
     <div className="body">
+    <div className="push"></div>
         <Image id="enso" src={Enso} alt="welcome" roundedCircle />
-        </div>
+    </div>
   );
 }
 
